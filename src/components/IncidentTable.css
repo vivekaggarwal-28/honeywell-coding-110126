@@ -1,0 +1,82 @@
+.incident-table-container {
+  overflow-x: auto;
+}
+
+.incident-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.incident-table th,
+.incident-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.incident-table th {
+  background-color: #f8f9fa;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.incident-row:hover {
+  background-color: #e8f4fd;
+}
+
+.priority-header {
+  width: 80px;
+}
+
+.priority-icon {
+  text-align: center;
+  width: 80px;
+}
+
+.priority-icon-img {
+  width: 24px;
+  height: 24px;
+}
+
+.incident-name {
+  font-weight: 500;
+  color: #2c3e50;
+}
+
+.datetime {
+  color: #666;
+  white-space: nowrap;
+}
+
+.priority-label {
+  text-align: center;
+}
+
+.priority-badge {
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.priority-1 {
+  background-color: #ffebee;
+  color: #c62828;
+}
+
+.priority-2 {
+  background-color: #fff3e0;
+  color: #ef6c00;
+}
+
+.priority-3 {
+  background-color: #e8f5e8;
+  color: #2e7d32;
+}
+
+.location-name {
+  color: #555;
+}
